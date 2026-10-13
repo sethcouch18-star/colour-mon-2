@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "colormons",
+  "version": "${version}",
+  "name": "Colormons",
+  "description": "Recolour your Cobblemon with a colour wheel (primary / secondary / tertiary).",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.colormons.ColormonsClient"] },
+  "mixins": ["colormons.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16",
+    "fabric-api": "*",
+    "fabric-language-kotlin": "*",
+    "minecraft": "1.21.1",
+    "cobblemon": ">=1.8.0"
+  }
+}
